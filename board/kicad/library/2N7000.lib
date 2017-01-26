@@ -1,0 +1,49 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 2N7000
+#
+DEF 2N7000 S 0 40 N N 1 L N
+F0 "S" 50 100 50 H V L CNN
+F1 "2N7000" 0 0 50 H I L CNN
+F2 "TO-92EXPANDED" 0 0 50 H I L CNN
+F3 "TO-92 STMicroelectronics" 0 0 50 H I L CNN "Package"
+F4 "Unavailable" 0 0 50 H I L CNN "Availability"
+F5 "None" 0 0 50 H I L CNN "Price"
+F6 "2N7000" 0 0 50 H I L CNN "MP"
+F7 "N-channel 60 V, 1.8 Ohm, 0.35 A STripFET(TM) II Power MOSFET in a TO-92 package" 0 0 50 H I L CNN "Description"
+F8 "STMicroelectronics" 0 0 50 H I L CNN "MF"
+DRAW
+P 2 0 0 10 -140 100 -140 -100 N
+P 2 0 0 6 -140 -100 -200 -100 N
+P 2 0 0 6 0 100 0 85 N
+P 2 0 0 6 -80 -85 0 -85 N
+P 2 0 0 6 0 -85 0 -100 N
+P 2 0 0 6 -85 0 0 0 N
+P 2 0 0 6 30 20 50 20 N
+P 2 0 0 6 50 20 70 20 N
+P 2 0 0 6 50 85 0 85 N
+P 2 0 0 6 0 85 -79 85 N
+P 2 0 0 6 50 20 50 85 N
+P 2 0 0 6 50 -85 50 -5 N
+P 2 0 0 6 50 -85 0 -85 N
+P 2 0 0 6 0 0 0 -85 N
+C 0 85 5 0 0 16 N
+C 0 -85 5 0 0 16 N
+T 0 -45 140 32 0 0 0 D Normal 0 L B
+T 0 -45 -170 32 0 0 0 S Normal 0 L B
+T 0 -190 -70 32 0 0 0 G Normal 0 L B
+S -110 -110 -80 -50 0 0 0 F
+S -110 50 -80 110 0 0 0 F
+S -110 -35 -80 35 0 0 0 F
+P 3 0 0 6 50.0 20.0 30.0 -10.0 70.0 -10.0 F
+P 3 0 0 6 -75.0 0.0 -25.0 -20.0 -25.0 20.0 F
+X G 2 -200 -100 0 R 40 40 0 0 P 
+X S 3 0 -200 100 U 40 40 0 0 P 
+X D 1 0 200 100 D 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
